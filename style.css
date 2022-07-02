@@ -47,8 +47,6 @@
     justify-content: center;
     
     
-    
-
        
     
 }
@@ -99,7 +97,7 @@ ul{
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(5,1fr);
     flex-wrap: wrap;
-    background-image: url('./assets/images/ala.jpg');
+    background-image: url('../assets/images/ala.jpg');
     background-attachment:fixed;
     
             
@@ -195,12 +193,12 @@ ul{
 
 
 
-.container_services{
+.cont_services{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     flex-wrap: wrap;
-    background-image: url('./assets/images/turbine.png');
+    background-image: url('../assets/images/turbine.png');
     background-attachment:fixed;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
